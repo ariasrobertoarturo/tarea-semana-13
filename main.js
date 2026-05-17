@@ -58,10 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
             successMsg.style.display = "block";
             form.reset();
             
-            // Ocultar mensaje después de 4 segundos
+            // Ocultar mensaje después de 10 segundos
             setTimeout(() => {
                 successMsg.style.display = "none";
-            }, 4000);
+            }, 10000);
         }
     });
 });
